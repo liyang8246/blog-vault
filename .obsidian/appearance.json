@@ -1,1 +1,6 @@
-{}
+{
+  "monospaceFontFamily": "Maple Mono NF CN",
+  "enabledCssSnippets": [
+    "code-wrap"
+  ]
+}

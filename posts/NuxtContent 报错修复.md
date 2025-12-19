@@ -5,7 +5,9 @@ tags:
   - vue
 ---
 ## 错误现象
+
 安装nuxt-content模块并选择better-sqlite3, 启动开发服务器会报错
+
 ```powershell
 ERROR  Could not locate the bindings file. Tried:                                                                                                                         17:58:08  
  → C:\Users\xxx\Desktop\nuxt-blog\node_modules\.pnpm\better-sqlite3@12.5.0\node_modules\better-sqlite3\build\better_sqlite3.node
