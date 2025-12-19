@@ -1,5 +1,6 @@
 {
   "monospaceFontFamily": "Maple Mono NF CN",
   "enabledCssSnippets": [],
-  "cssTheme": ""
+  "cssTheme": "",
+  "nativeMenus": false
 }
