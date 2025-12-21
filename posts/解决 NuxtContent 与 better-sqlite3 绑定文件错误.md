@@ -4,7 +4,7 @@ tags:
   - 前端
   - vue
 ---
-## 错误现象
+# 错误现象
 
 安装nuxt-content模块并选择better-sqlite3, 启动开发服务器会报错
 
@@ -51,10 +51,10 @@ ERROR  Could not locate the bindings file. Tried:                               
  → C:\Users\xxx\Desktop\nuxt-blog\node_modules\.pnpm\better-sqlite3@12.5.0\node_modules\better-sqlite3\lib\binding\node-v137-win32-x64\better_sqlite3.node
 ```
 
-## 错误分析
+# 错误分析
 这是因为 `better-sqlite3` 是 `nodejs` 原生模块, 需要编译安装
 
-## 错误处理
+# 错误处理
 1. 确保安装了 `Visual Studio` 里的 `C++桌面开发` 套件
 2. 删除 `node_modules`
 3. 清除一下 `pnpm` 存储 `pnpm store prune`

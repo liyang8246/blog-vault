@@ -3,13 +3,13 @@ date: 2024-12-08
 tags:
   - 前端
 ---
-## 安装依赖
+# 安装依赖
 
 ```bash
 scoop install zola tailwindcss
 ```
 
-## 初始化zola
+# 初始化zola
 
 ```bash
 zola init blog
@@ -17,7 +17,7 @@ zola init blog
 
 详见 [zola](https://www.getzola.org/documentation/getting-started/overview/)
 
-## 配置tailwindcss
+# 配置tailwindcss
 
 根目录创建 `tailwind.config.js` 文件
 
@@ -49,7 +49,7 @@ module.exports = {
 />
 ```
 
-## 启动serve
+# 启动serve
 
 可以直接在两个终端分别运行
 
@@ -79,14 +79,14 @@ zola_process.wait()
 
 运行 `python serve.py`
 
-## 构建
+# 构建
 
 ```bash
 tailwindcss -i ./static/styles/main.css -o ./static/styles/tailwind.css
 zola build
 ```
 
-## 部署到vercel
+# 部署到vercel
 
 根目录创建 `vercel.json` 文件
 
@@ -99,7 +99,7 @@ zola build
 }
 ```
 
-## gitignore 参考
+# gitignore 参考
 
 ```
 node_modules
