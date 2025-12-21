@@ -1,7 +1,8 @@
 ---
 date: 2024-12-08
 tags:
-  - 前端
+  - frontend
+  - tutorial
 ---
 # 安装依赖
 

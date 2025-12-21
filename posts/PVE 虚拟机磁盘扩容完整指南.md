@@ -1,7 +1,9 @@
 ---
 date: 2025-06-13
 tags:
+  - devops
   - linux
+  - tutorial
 ---
 仅针对 linux+gpt+ext4
 

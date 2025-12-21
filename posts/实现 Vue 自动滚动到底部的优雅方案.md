@@ -1,8 +1,9 @@
 ---
 date: 2025-12-18
 tags:
+  - frontend
+  - tutorial
   - vue
-  - 前端
 ---
 原理很简单 当容器内的内容发生变化时，MutationObserver 会检测到 DOM 的变化，然后自动触发 `scrollToBottom` 函数，将滚动条移动到最底部，确保最新内容始终可见。
 

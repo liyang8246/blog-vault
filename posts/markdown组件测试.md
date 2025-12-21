@@ -1,8 +1,10 @@
 ---
 date: 1970-01-01
 tags:
+  - component
+  - markdown
+  - test
 ---
-
 # Markdown 组件测试
 
 ## 标题测试

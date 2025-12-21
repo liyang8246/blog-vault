@@ -1,7 +1,7 @@
 ---
 date: 2025-12-19
 tags:
-  - 前端
+  - frontend
   - vue
 ---
 # 错误现象
