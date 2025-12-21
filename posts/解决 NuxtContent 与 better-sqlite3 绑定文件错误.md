@@ -6,7 +6,7 @@ tags:
 ---
 # 错误现象
 
-安装nuxt-content模块并选择better-sqlite3, 启动开发服务器会报错
+安装 `nuxt-content` 模块并选择 `better-sqlite3` , 启动开发服务器会报错
 
 ```powershell
 ERROR  Could not locate the bindings file. Tried:                                                                                                                         17:58:08  
