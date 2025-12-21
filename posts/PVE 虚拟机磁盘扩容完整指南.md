@@ -1,5 +1,5 @@
 ---
-date: 2025-12-19
+date: 2025-06-13
 tags:
   - linux
 ---
@@ -29,7 +29,7 @@ Welcome to GNU Parted! Type 'help' to view a list of commands.
 
 4. 查看分区 `print` 此时会提示修复 gpt 分区表, 填 Fix
 
-```sql
+```bash
 (parted) print
 Warning: Not all of the space available to /dev/sda appears to be used, you can fix the GPT to use all of the space (an extra 268435456 blocks) or continue with the current setting?
 Fix/Ignore? Fix
