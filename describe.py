@@ -62,6 +62,9 @@ for meta, content, path in posts:
     meta.description = meta.description.replace('，', ', ')
     meta.description = meta.description.replace('。', '.')
     meta.description = meta.description.replace('：', ' ')
+    meta.description = meta.description.replace('；', '; ')
+    meta.description = meta.description.replace('、', ' ')
+    meta.description = meta.description.replace('：', ' ')
     meta.description = meta.description.replace(':', ' ')
 
     # 写回文件
