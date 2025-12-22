@@ -61,7 +61,8 @@ for meta, content, path in posts:
     meta.description = meta.description.replace('\n', ' ')
     meta.description = meta.description.replace('，', ', ')
     meta.description = meta.description.replace('。', '.')
-    meta.description = meta.description.replace('：', ': ')
+    meta.description = meta.description.replace('：', ' ')
+    meta.description = meta.description.replace(':', ' ')
 
     # 写回文件
     body = content.split("---", 2)[2] if content.count("---") >= 2 else content
