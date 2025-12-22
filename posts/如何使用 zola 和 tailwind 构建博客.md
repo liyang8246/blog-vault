@@ -3,6 +3,7 @@ date: 2024-12-08
 tags:
   - frontend
   - tutorial
+description: 完整教程 安装配置 Zola 静态站点生成器与 Tailwind CSS, 从项目初始化 样式配置 开发服务到构建部署的全流程详解.
 ---
 # 安装依赖
 

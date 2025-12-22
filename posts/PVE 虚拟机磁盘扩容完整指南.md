@@ -4,6 +4,7 @@ tags:
   - devops
   - linux
   - tutorial
+description: 本文详解Linux系统GPT分区与ext4文件系统的硬盘扩容教程, 包含分区调整和文件系统扩展的完整步骤.
 ---
 仅针对 linux+gpt+ext4
 

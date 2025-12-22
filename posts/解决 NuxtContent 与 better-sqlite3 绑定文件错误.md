@@ -3,6 +3,7 @@ date: 2025-12-19
 tags:
   - frontend
   - vue
+description: Nuxt项目中better-sqlite3模块报错解决方案 确保安装VS C++开发环境, 清理依赖并重新编译原生模块.
 ---
 # 错误现象
 
