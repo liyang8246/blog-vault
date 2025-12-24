@@ -57,6 +57,24 @@ ERROR  Could not locate the bindings file. Tried:                               
 
 # 错误处理
 1. 确保安装了 `Visual Studio` 里的 `C++桌面开发` 套件
-2. 删除 `node_modules`
-3. 清除一下 `pnpm` 存储 `pnpm store prune`
-4. 现在应该可以正常运行了
+2. 在 `devDependencies` 中添加 `better-sqlite3`
+3. 在 `onlyBuiltDependencies` 中添加 `better-sqlite3`
+```json [package.json]
+{
+  "dependencies": { ... },
+  "devDependencies": {
+    "better-sqlite3": "x.x.x"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "unrs-resolver"
+    ]
+  }
+}
+```
+4. 删除 `node_modules`
+5. 清除一下 `pnpm` 存储 `pnpm store prune`
+6. 现在应该可以正常运行了
