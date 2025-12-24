@@ -67,10 +67,7 @@ ERROR  Could not locate the bindings file. Tried:                               
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "better-sqlite3",
-      "esbuild",
-      "unrs-resolver"
+      "better-sqlite3"
     ]
   }
 }
