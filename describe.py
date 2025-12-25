@@ -60,11 +60,11 @@ for meta, content, path in posts:
     meta.description = generate_description(content)
     meta.description = meta.description.replace('\n', ' ')
     meta.description = meta.description.replace('，', ', ')
-    meta.description = meta.description.replace('。', '.')
+    meta.description = meta.description.replace('。', '. ')
+    meta.description = meta.description.replace('？', '? ')
     meta.description = meta.description.replace('：', ' ')
     meta.description = meta.description.replace('；', '; ')
     meta.description = meta.description.replace('、', ' ')
-    meta.description = meta.description.replace('：', ' ')
     meta.description = meta.description.replace(':', ' ')
 
     # 写回文件
