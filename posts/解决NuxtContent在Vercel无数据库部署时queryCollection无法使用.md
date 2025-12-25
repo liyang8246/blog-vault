@@ -13,6 +13,7 @@ description: Nuxt Content部署Vercel时服务端渲染报错, 需手动配置li
 在 [NuxtConent文档](https://content.nuxt.com/docs/deploy/vercel) 中写到
 
 > Nuxt Content projects can be deployed to Vercel with zero configuration. The module will automatically detect a Vercel environment and will prepare the necessary configuration for deployment.
+> 
 > By default module will use SQlite database in Vercel located at /tmp directory.
 
 但是用起来根本不是这么回事, 当第一次访问网站或刷新的时候, 执行服务端渲染, `queryCollection` 会报错
